@@ -1,0 +1,17 @@
+Package: TwoSampleTests
+Title: 4 Two-Sample Tests
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matthew", "Chen", , "mc52@illnois.edu", role = c("aut", "cre"))
+Description: Implementation of the Nearest Neighbor, Energy Distance, Hotelling's T-squared, and Graph Distance test for the two sample problem using permutation tests.For STAT 428 Final Project Extra Credit. 
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+  MASS,
+  RANN,
+  stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
